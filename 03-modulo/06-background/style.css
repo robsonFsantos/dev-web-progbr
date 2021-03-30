@@ -1,0 +1,15 @@
+body {
+    background-image: url(./imagens/background.jpg);
+    background-attachment: fixed;
+    
+}
+
+.destaque {
+    color: rgb(6, 4, 104);
+    background-color: rgba(146, 143, 65, 0.952);   
+}
+
+#nuance {
+    color: darkblue;
+}
+/* Isto é um comentário CSS*/
