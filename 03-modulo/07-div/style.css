@@ -1,0 +1,22 @@
+body {
+    background-image: url(./imagens/background.jpg);
+    background-attachment: fixed;
+    
+}
+
+.destaque {
+    color: rgb(5, 5, 0);
+    /*background-color: rgba(146, 143, 65, 0.952);*/   
+}
+
+#nuance {
+    color: rgb(5, 5, 0);
+}
+#background-paragrafos {
+    background-color: rgb(45, 241, 120);
+}
+.subdiv {
+    background-color: rgb(190, 20, 14);
+}
+
+/* Isto é um comentário CSS*/
