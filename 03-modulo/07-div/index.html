@@ -17,11 +17,13 @@
         OBS.: Mas uma <div> não comunica um significado (não é uma tag semântica).
             Existem outras tags na HTML5 que realizam a mesma função de uma <div>, mas que são semânticas, comunicam significado aos navegadores. 
 
-    É possível criar uma <div> dentro de outra <div>, uma <div> passa a ser o elemento pai, a outra o elemento filho.
+    É possível criar uma <div> dentro de outra <div>, uma <div> passa a ser o elemento pai, a outra o elemento filho (uma subdiv).
 
 -->
 
     <h2>Exercício com o elemento "div" </h2>
+
+    <!-- A div pai começa aqui -->
     <div id="background-paragrafos">
         <p class="destaque">
             <strong id="nuance">Dolor sit amet, consectetur adipiscing elit. vel dignissim nunc. Fusce nunc arcu,
@@ -45,6 +47,8 @@
             vestibulum nibh id, euismod justo. Morbi sit amet purus eget libero malesuada viverra vel quis sem. Donec
             placerat ultrices tempus.
         </p>
+
+        <!-- A div filho começa aqui -->
         <div class="subdiv">
             <p class="destaque">
                 Dolor sit amet, consectetur adipiscing elit. vel dignissim nunc. Fusce nunc arcu, imperdiet eget
@@ -69,6 +73,8 @@
                 Donec
                 placerat ultrices tempus.
             </p>
+
+            <!-- A div filho termina aqui -->
         </div>
 
         <p class="destaque">
@@ -80,6 +86,7 @@
             vestibulum nibh id, euismod justo. Morbi sit amet purus eget libero malesuada viverra vel quis sem. Donec
             placerat ultrices tempus.
         </p>
+        <!-- A div pai termina aqui -->
     </div>
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
