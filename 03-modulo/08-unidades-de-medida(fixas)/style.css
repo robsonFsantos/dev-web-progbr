@@ -1,0 +1,71 @@
+body {
+    background-color: khaki;
+    font-size: 16pt;
+    background-attachment: fixed;
+}
+
+.paragrafo {
+    color: black;
+}
+
+#titulo {
+    color:black;
+}
+
+/* Exercício de Unidades de medida (fixas) */
+
+/* centímetro */
+#cm {
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+/* milímetro */
+#mm {
+    background-color:red;
+    width: 1mm;
+    height: 1mm;
+}
+
+/* polegada */
+#in {
+    background-color:green;
+    width: 1in;
+    height: 1in;
+}
+
+/* pixel */
+#px {
+    background-color: red;
+    width: 1px;
+    height: 1px;
+}
+
+/* ponto */
+#pt {
+    background-color: blue;
+    width: 1pt;
+    height: 1pt;
+}
+
+/* picas (equivalente a 12 pontos) */
+#pc {
+    background-color: red;
+    width: 1pc;
+    height: 1pc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
