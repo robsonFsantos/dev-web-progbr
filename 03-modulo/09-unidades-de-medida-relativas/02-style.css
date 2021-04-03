@@ -1,0 +1,29 @@
+/* Exercício de Unidades de medida absolutas (referência) */
+
+.container {
+    font-size: 25px;
+    width: 300px;
+    background: red;
+}
+
+.inside {
+    font-size: 2em;
+    width: 1em;
+    background: blue;
+}
+
+/* O "em" equivale à configuração de 'tamanho de fonte de texto' do elemento HTML relacionado. 
+
+FOCO NO QUE ACONTECEU AQUI NA CLASS "INSIDE":
+
+O que acontece na class "inside" tem relação proporcional com o que acontece na class "container" (porque aqui, neste contexto, a class "inside" é uma subdiv da div pai [o "container"])  
+
+O tamanho da fonte (font-size) está configurado no container para 25 pixels (25px). 
+
+Na class "inside" a font-size está configurada para 2em (isto equivale ao dobro de 25px = 50px). 
+
+Declarar que a largura é igual a 1em ("width: 1em;"), neste contexto, equivale a determinar que a largura da subdiv (a class "indide") tenha o dobro de 25px (50px). 
+
+
+*/
+

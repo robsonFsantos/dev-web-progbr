@@ -1,0 +1,17 @@
+.container {
+    width: 200px;
+    height: 500px;
+    background: red;
+    
+}
+
+.inside {
+    width: 50%;
+    height: 50%;
+    background: blue;
+    
+}
+/* ---- unidade de medida "porcentagem (%)" NO CONTAINER  ---- 
+Na relação "inside" com "container" (elemento filho com elemento pai), o "width" (largura) do inside corresponde ao "width" do container, o "height" (altura) do inside corresponde ao "height" do container. 
+
+Neste exemplo, o "height" (a altura) do inside está configurado para ter 50% do "height" de seu elemento pai (o container). Neste caso, 50% de 500px. */

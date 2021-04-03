@@ -1,0 +1,36 @@
+/* Exercício de Unidades de medida (referência) */
+
+/*  
+---- em ----
+No exemplo deste exercício,a class "inside" é uma subdiv da div pai "container".Por natureza, a subdiv herda a configuração da div pai. 
+O "em" equivale à configuração de 'tamanho de fonte de texto' do elemento HTML relacionado.
+ 
+1em significa a ocorrência de uma vez o tamanho configurado da font-size do elemento HTML relacionado (mas não apenas da font-size,do width e do height também).
+
+Aqui o "em" está expressado na subdiv. Por consquência,o elemento HTML relacionado é a div pai (a class "container").
+
+1em equivale, neste caso específico, a 20px. (2em equivaleria a 40px). 
+
+Por esta razão, neste exercício,os textos da class "container" e da class "inside" têm tamanhos equivalentes */
+
+.container {
+    font-size: 20px;
+}
+
+.inside {
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

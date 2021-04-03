@@ -1,0 +1,14 @@
+.container {
+    width: 50vw;
+    background: red;
+    
+}
+
+.inside {
+    width: 100px;
+    background: blue;
+    
+}
+/* ---- unidade vw ---- 
+A unidade "vw" determina o tamanho de um elemento de acordo com a largura (width) do viewport.
+OBS.: O viewport é a área onde seu website aparece.*/

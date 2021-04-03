@@ -1,0 +1,13 @@
+.container {
+    width: 50vmax;
+    background: red;
+    
+}
+
+.inside {
+    width: 100%;
+    background: blue;
+    
+}
+/* ---- unidade de medida "porcentagem (%)" NO INSIDE  ---- 
+A unidade de medida "porcentagem (%)" determina o tamanho de um elemento DE ACORDO COM O TAMANHO CONFIGURADO DO ELEMENTO PAI.*/

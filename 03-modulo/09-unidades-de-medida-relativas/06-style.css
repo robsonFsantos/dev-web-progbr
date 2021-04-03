@@ -1,0 +1,14 @@
+.container {
+    width: 50vmin;
+    background: red;
+    
+}
+
+.inside {
+    width: 100px;
+    background: blue;
+    
+}
+/* ---- unidade vmin ---- 
+A unidade "vmin" determina o tamanho de um elemento DE ACORDO COM O MENOR VALOR identificado no viewport, entre a largura (width) e a altura (height) da tela do dispositivo.
+OBS.: O viewport é a área onde seu website aparece.*/

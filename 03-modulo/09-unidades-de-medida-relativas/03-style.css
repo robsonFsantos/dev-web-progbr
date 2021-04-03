@@ -1,0 +1,20 @@
+/* Exercício de Unidades de medida absolutas (referência) */
+/* --- rem --- 
+O "rem" equivale ao 'tamanho da fonte de texto' do elemento HTML raiz 
+(o elemento raiz na HTML é a tag "html").
+
+Na HTML, o tamanho padrão da fonte de um texto é de 16px
+
+Alterar a font-size dentro da tag "html" implica alterar o tamanho de fonte padrão de toda a página.
+
+ */
+
+.container {
+    font-size: 25px;
+    
+}
+
+.inside {
+    font-size: 1rem;
+    
+}
