@@ -1,0 +1,13 @@
+.borda {
+    border-width: 5px;
+    border-color: red green blue yellow;
+
+
+}
+
+.solid {border-style: solid;}
+
+/* -- BORDAS COLORIDAS  --- em torno de um único elemento
+Uso simultâneo de várias sub propriedades CSS em uma única linha de código:
+         
+    Este procedimento - a distribuição das sub propriedades na linha de código -, funciona INVARIAVELMENTE em sentido horário: a primeira a ser digitada representa a borda superior, a segunda a borda direita, a terceira a borda inferior e a quarta a borda esquerda. -- */

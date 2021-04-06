@@ -1,0 +1,10 @@
+.borda {
+    border-width: 5px;
+    border-right-color:  red;
+
+
+}
+
+.solid {border-style: solid;}
+
+/* -- Um valor --- DISTINTO --- para a borda direita -- */

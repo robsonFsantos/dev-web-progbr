@@ -1,0 +1,15 @@
+.borda {
+    border-radius: 50%;
+}
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+
+
+/* -- border-radius: 50%; 
+      transforma um elemento gráfico em um círculo
+      
+      -- */

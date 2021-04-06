@@ -1,0 +1,19 @@
+.borda {
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+}
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+
+
+/* -- UMA BORDA PARA O QUADRADO
+      
+      É possível acrescentar variadas classes dentro de uma classe. O elemento relacionado herda toda a configuração implicada em cada uma das classes acrescentadas.
+      
+      -- */
