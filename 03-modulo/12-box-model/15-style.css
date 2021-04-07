@@ -1,0 +1,19 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 10px solid blue;
+}
+
+.square2 {
+    width: 120px;
+    height: 100px;
+    background-color: yellow;
+}
+
+/* A largura (width) da div "square2" agora está também com 120px, a mesma configuração de largura da div "square". O espaço de largura entre os dois elementos agora coincidem.  */

@@ -1,0 +1,9 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+/* O elemento "body" (o corpo da página HTML), possui uma configuração preestabelecida de preenchimento (padding), de margem (margin) e de borda (border). Neste exercício, os valores de configuração do "padding" e da "margin" foram zerados. 
+
+Nesta condição, o conteúdo do texto está literalmente colado na lateral esquerda da página */

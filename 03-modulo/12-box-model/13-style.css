@@ -1,0 +1,19 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 10px solid blue;
+}
+
+/* Ainda referente à class "square"
+
+    Foi acrescentada uma borda ao elemento (a figura amarela [um quadrado]) 
+A borda determina que o elemento ocupe mais espaço na página.
+
+Foram acrescentados 10px no border. Isso implica 20px da borda somados aos 100px de largura e 100px de altura.
+A figura da class "square" (o quadrado amarelo), com o acréscimo da borda, passou a ocupar 120px de largura (width) e 120px de altura (height).  */

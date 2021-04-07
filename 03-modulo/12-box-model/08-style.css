@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+.container {
+    background-color: red;
+    padding: 5px;
+    border: 5px solid blue;
+    margin: 10px;
+
+}
+.content {
+    background-color: #ddd;
+    border: 5px solid green;
+    margin: 5px;
+}
+
+
+/* A margem (margin) determina a distância do elemento dos outros elementos da página.
+
+Nesta situação específica, foi acrescentada uma margem (margin) ao conteúdo (uma distância do conteúdo [content] relacionada ao container). Uma distância de 5px entre a borda do conteúdo (content) e a borda do container.
+
+Isto implica: 5px do padding do container + 5px da margem (margin) do conteúdo. A distância entre o conteúdo (content) e o container está duplicada. */

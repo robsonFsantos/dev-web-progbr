@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 10px solid blue;
+    padding: 10px; 
+
+    /* box-sizing: border-box; */
+}
+
+.square2 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+/* Com a desativação do "box-sizing: border-box;", o elemento da div "square" (a figura amarela, com borda azul, acima da "square2") passou novamente a se comportar de acordo com a propriedade padrão da box model */

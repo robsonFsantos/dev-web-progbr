@@ -1,0 +1,15 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+.container {
+    background-color: red;
+
+}
+.content {
+    background-color: #ddd;
+}
+
+
+/* O background vermelho do container coincide em tamanho com o backgrond sinza do conteúdo (content). O background vermelho do container permanece no mesmo lugar, apenas não aparece. Porque o conteúdo (content) está à frente do container, o background do conteúdo se sobrepõe ao do container.  */

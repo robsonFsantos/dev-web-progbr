@@ -1,0 +1,13 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+/* Figura amarela (um quadrado) referente à class "square"
+100px de largura, 100px de altura, e background amarelo  */

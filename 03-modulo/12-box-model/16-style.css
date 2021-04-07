@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 10px solid blue;
+    padding: 10px;
+}
+
+.square2 {
+    width: 120px;
+    height: 100px;
+    background-color: yellow;
+}
+
+/* Foi acrescentado preenchimento (padding) de 10px à div "square". 
+A largura (width) da div "square" passou a ter 140px, está maior que a "square2". 
+
+A configuração de largura dos dois elementos - div "square" e div "square2" - passou, novamente, a NÃO coincidir. */

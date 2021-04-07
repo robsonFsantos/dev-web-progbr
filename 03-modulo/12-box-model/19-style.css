@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 10px solid blue;
+    padding: 10px;
+
+    box-sizing: border-box; 
+}
+
+.square2 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+/* O texto do elemento da div "square2" está colado na extremidade esquerda da página exatamente porque se trata de uma configuração de div SEM padding. 
+
+O texto do elemento da div "square" (a figura amarela, com borda azul, acima da "square2") está bastante afastado das extremidades da página porque, neste caso, se trata do uso do preenchimento (padding).  */

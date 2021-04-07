@@ -1,0 +1,17 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+.container {
+    background-color: red;
+    padding: 5px;
+    border: 5px solid blue;
+
+}
+.content {
+    background-color: #ddd;
+}
+
+
+/* Borda (border) azul do container, preenchimento (padding) vermelho do container, e o conteúdo (content) sinza.  */
