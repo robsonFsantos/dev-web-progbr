@@ -1,0 +1,11 @@
+p {
+    color: red;
+    text-transform: uppercase;
+
+}
+
+/* text-transform
+Propriedade de transformação de texto CSS
+
+"text-transform: [uppercase;]" 
+-> Transforma todos os caracteres em maiúsculas */

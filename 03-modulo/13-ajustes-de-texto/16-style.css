@@ -1,0 +1,11 @@
+p {
+    color: red;
+    text-indent: 35px;
+    word-spacing: 15px;
+    
+
+}
+
+/* word-spacing
+Aumenta ou diminui o espaço em branco entre as palavras.
+Valores negativos são permitidos. */

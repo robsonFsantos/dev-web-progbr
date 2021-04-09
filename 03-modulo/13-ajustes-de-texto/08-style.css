@@ -1,0 +1,12 @@
+p {
+    color: red;
+    text-indent: 35px;
+
+}
+
+/* text-indent
+Propriedade de indentação de texto CSS
+
+A propriedade "text-indent" especifica o recuo da primeira linha em um bloco de texto.
+
+Nota: Valores negativos são permitidos. A primeira linha será recuada para a esquerda se o valor for negativo. */

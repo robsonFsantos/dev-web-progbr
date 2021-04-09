@@ -1,0 +1,11 @@
+p {
+    color: red;
+    text-transform: capitalize;
+
+}
+
+/* text-transform
+Propriedade de transformação de texto CSS
+
+"text-transform: [capitalize;]" 
+-> Transforma o primeiro caractere de cada palavra em maiúscula. */

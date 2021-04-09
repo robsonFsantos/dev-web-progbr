@@ -1,0 +1,14 @@
+p {
+    color: red;
+    text-indent: 35px;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+/* text-decoration: [none;]
+    ANULAR O UNDERLINE de um link de texto.
+    
+    OBS.: Por padrão, qualquer texto tranformado em link se torna automaticamente sublinhado. */

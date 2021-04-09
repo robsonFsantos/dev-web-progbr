@@ -1,0 +1,10 @@
+p {
+    color: red;
+    text-indent: 35px;
+    text-decoration: line-through;
+
+}
+
+/* text-decoration: [line-through;]
+
+O texto inteiro passa a ter uma linha horizontal que ATRAVESSA AS PALAVRAS em toda a sua extensão (risca todo o texto). */

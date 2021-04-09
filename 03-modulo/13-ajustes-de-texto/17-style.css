@@ -1,0 +1,14 @@
+p {
+    color: red;
+    text-indent: 35px;
+    text-shadow: 2px 2px 5px black ;
+    
+
+}
+
+/* text-shadow CSS
+SOMBRA DE TEXTO
+
+Esta propriedade aceita uma lista separada por vírgulas de sombras a serem aplicadas ao texto.
+
+Para adicionar mais de uma sombra ao texto, adicione uma lista de sombras separada por vírgulas.  */

@@ -1,0 +1,13 @@
+p {
+    color: red;
+    text-indent: 35px;
+    text-decoration: line-through underline overline;
+
+}
+
+/* text-decoration: [line-through underline overline;]
+
+As três subpropriedades usadas em uma única linha de código. 
+O texto passa a estar, em toda a sua extensão, sublinhado, riscado e com uma linha horizontal que se extende acima das palavras. 
+
+É possível usar a combinação de duas ou de três subpropriedades juntas.  */

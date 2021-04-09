@@ -1,0 +1,10 @@
+p {
+    color: red;
+    text-indent: 35px;
+    text-decoration: overline;
+
+}
+
+/* text-decoration: [overline;]
+
+O texto inteiro passa a ter uma linha horizontal em toda a sua extensão, acima das palavras. */

@@ -1,0 +1,11 @@
+p {
+    color: red;
+    text-transform: lowercase;
+
+}
+
+/* text-transform
+Propriedade de transformação de texto CSS
+
+"text-transform: [lowercase;]" 
+-> Transforma todos os caracteres em minúsculas */
