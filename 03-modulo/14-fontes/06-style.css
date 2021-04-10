@@ -1,0 +1,19 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+
+}
+
+/*  DEFINIR NEGRITO
+através da propriedade "font-weight" 
+-> font-weight: 900;  
+
+Neste exemplo, o valor "bold" foi substituído por um valor numérico 
+(referente à intensidade de negrito)
+que pode variar de 100 a 900. 
+
+De 100 a 400 é a fonte normal, 700 é negrito, 
+entre 800 e 900 é um negrito reforçado
+
+Mas essas correspondências de valor tendem a variar de acordo com a font-family relacionada. */

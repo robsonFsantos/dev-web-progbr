@@ -1,0 +1,15 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-variant: small-caps;
+
+}
+
+/*  font-variant
+
+-> font-variant: small-caps;
+
+Em uma fonte de versalete, todas as letras minúsculas são convertidas em maiúsculas. No entanto, as letras maiúsculas convertidas aparecem em um tamanho de fonte menor do que as letras maiúsculas originais no texto.
+
+A propriedade font-variant especifica se um texto deve ou não ser exibido em uma fonte versalete.  */

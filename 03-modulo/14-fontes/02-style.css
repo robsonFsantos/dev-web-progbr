@@ -1,0 +1,26 @@
+p {
+    font-family: Arial;
+
+
+}
+
+/*  A RECOMENDAÇÃO PADRÃO DA W3C
+referente ao uso da propriedade "font-family":
+
+Neste exemplo, está em uso uma fonte de letra determinada isoladamente (a Arial). Esta não é uma prática recomendada. 
+
+POR QUÊ?
+
+Porque há possibilidades de que, em alguns computadores dos usuários, em determinada ocasião, esta fonte de letra específica, determinada isoladamente no código fonte da página, não esteja disponível. Quando isso ocorre, o navegador renderiza automaticamente o texto com a fonte padrão CSS, a Times New Roman. 
+
+A RECOMENDAÇÃO PADRÃO DA W3C
+referente ao uso da propriedade "font-family":
+
+"A propriedade font-family deve conter vários nomes de fontes como um sistema "substituto", para garantir a compatibilidade máxima entre navegadores / sistemas operacionais. 
+
+Comece com a fonte desejada e termine com uma família genérica (para permitir que o navegador escolha uma fonte semelhante na família genérica, se nenhuma outra fonte estiver disponível). 
+
+Os nomes das fontes devem ser separados por vírgula.
+
+Se o nome da fonte for mais de uma palavra, deve estar entre aspas, 
+tipo: "Times New Roman"." */
