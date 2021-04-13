@@ -1,0 +1,12 @@
+.links {
+    text-decoration: none;
+    color: white;
+    background: red;
+    padding: 10px;
+    padding-top: 05px;
+    padding-bottom: 05px;
+    border-radius: 8px;
+}
+
+/*  Transformar o texto (do link) em um botão, 
+através de estilização CSS  */

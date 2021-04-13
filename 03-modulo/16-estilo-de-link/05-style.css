@@ -1,0 +1,24 @@
+/* .links {
+    /* text-decoration: none;
+    color: red;
+    padding: 10px;
+    padding-top: 05px;
+    padding-bottom: 05px;
+    border-radius: 8px;
+    border: 2px solid red; 
+} 
+  */
+
+.links:visited {
+    color: red;
+}
+
+/* Modificar a cor do texto-link, 
+referente à sua situação (ao seu estado) de "visitado"
+    EXEMPLO: 
+        .links:visited {
+            color: red;
+        } 
+    
+OBS.: A cor padrão para texto-link "visitado" 
+    é roxo              */

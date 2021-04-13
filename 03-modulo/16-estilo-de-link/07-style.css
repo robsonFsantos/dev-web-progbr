@@ -1,0 +1,23 @@
+.links {
+    text-decoration: none;
+    color: red;
+    padding: 10px;
+    padding-top: 05px;
+    padding-bottom: 05px;
+    border-radius: 8px;
+    border: 2px solid red; 
+} 
+
+
+.links:active{
+    background: red;
+    color: white;
+}
+
+/*  ----  ACTIVE ---- 
+Modificar a cor do texto-link, 
+QUANDO O USUÁRIO CLICA NO LINK 
+       EXEMPLO: 
+       .links:active{
+    background: red;
+    color: white;      */

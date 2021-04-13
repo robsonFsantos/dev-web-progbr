@@ -1,0 +1,15 @@
+.links {
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+
+/* Modificar a cor do texto (do link),
+modificar o formato (o ícone) do cursor:
+
+    "color: red;
+    cursor: pointer;" 
+    
+    a subpropriedade "pointer" 
+    é o formato padrão para o cursor 
+    (o ícone da mãozinha branca)   */

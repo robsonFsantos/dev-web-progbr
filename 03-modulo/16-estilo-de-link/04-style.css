@@ -1,0 +1,15 @@
+.links {
+    text-decoration: none;
+    color: red;
+    /* background: red; */
+    padding: 10px;
+    padding-top: 05px;
+    padding-bottom: 05px;
+    border-radius: 8px;
+    border: 2px solid red;
+}
+
+/*  Transformar o texto (do link) 
+    em um botão outline (botão com contorno),
+     
+através de estilização CSS */

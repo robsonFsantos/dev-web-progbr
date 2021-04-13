@@ -1,0 +1,24 @@
+.links {
+    text-decoration: none;
+    color: red;
+    padding: 10px;
+    padding-top: 05px;
+    padding-bottom: 05px;
+    border-radius: 8px;
+    border: 2px solid red; 
+} 
+
+
+.links:hover{
+    background: red;
+    color: white;
+}
+
+/* ----  HOVER ---- 
+Modificar a cor do texto-link, 
+QUANDO O USUÁRIO PASSA O MOUSE/ O CURSOR 
+EM CIMA DO LINK 
+       EXEMPLO: 
+       .links:hover{
+    background: red;
+    color: white;       */
