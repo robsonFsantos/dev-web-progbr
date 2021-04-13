@@ -1,0 +1,23 @@
+ul {
+    list-style-image: url(./imagens/icone-de-marcador-de-lista.jpg);
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+}
+
+li {
+    border: 1px solid;
+}
+
+/* list-style-position: inside;
+
+significa que os marcadores estarão DENTRO 
+do item da lista. 
+EXEMPLO:
+ol {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+                                        */ 

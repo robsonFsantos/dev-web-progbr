@@ -1,0 +1,15 @@
+ul {
+    list-style-image: url(./imagens/icone-de-marcador-de-lista.jpg);
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+/* A propriedade  "list-style-image"
+substitui o marcador --- do item da lista --- por uma imagem.
+POR EXEMPLO:
+
+ul {
+    list-style-image: url(./imagens/icone-de-marcador-de-lista.jpg);
+}                                                                       */ 

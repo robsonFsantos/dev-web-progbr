@@ -1,0 +1,29 @@
+ul {
+    list-style-image: url(./imagens/icone-de-marcador-de-lista.jpg);
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+ol {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+}
+
+li {
+    border: 1px solid;
+}
+
+/* Colorir o background das listas
+     EXEMPLO:
+
+    ul {
+    list-style-image: url(./imagens/icone-de-marcador-de-lista.jpg);
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;     */ 

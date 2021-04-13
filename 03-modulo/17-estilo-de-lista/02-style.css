@@ -1,0 +1,17 @@
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: none;
+}
+
+/*  ícones dos marcadores de item de lista 
+    ---  MAIS COMUNS ---
+    nas listas desordenadas: 
+    "disc"
+    
+    EXEMPLO:
+    ul {
+    list-style-type: disc;
+    }                                   */

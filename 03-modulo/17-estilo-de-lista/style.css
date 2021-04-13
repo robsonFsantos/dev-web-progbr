@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+}
+
+ol {
+    list-style-type: none;
+}
+
+/* Estilização de LISTAS 
+          --- com CSS --- 
+ Anular os ícones dos marcadores de item de lista 
+        EXEMPLO:  
+         
+        ul {
+            list-style-type: none;
+        }
+
+        ol {
+            list-style-type: none;
+        }
+                                        */
