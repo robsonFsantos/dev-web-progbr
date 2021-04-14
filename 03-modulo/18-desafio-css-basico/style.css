@@ -1,0 +1,33 @@
+body {
+    font-size: 18px;
+    background:url(./imagens/backgorund.png);
+    background-repeat: no-repeat;
+
+}
+
+@font-face {
+    font-family: h2;
+    src: url(./fontes/Train_One/TrainOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: li;
+    src: url(./fontes/Train_One/TrainOne-Regular.ttf);
+}
+
+h2 {
+    font-family: h2, Arial, Helvetica, sans-serif;
+}
+li {
+    font-family: li, Arial, Helvetica, sans-serif;
+}
+
+.instagram {
+    list-style-image: url(./imagens/Insta.png);
+}
+.twitter {
+    list-style-image: url(./imagens/Twitter.png);
+}
+.youtube {
+    list-style-image: url(./imagens/Youtube.png);
+}

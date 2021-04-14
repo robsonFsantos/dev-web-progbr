@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+.card {
+    background: url(./imagens/backgorund.png) no-repeat;
+    width: 400px;
+    height: 200px;
+    padding: 1px 20px;
+    background-size: cover; 
+    margin:auto;
+    margin-top: 10%;
+    box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.instagram {
+    list-style-image: url(./imagens/Insta.png);
+}
+.twitter {
+    list-style-image: url(./imagens/Twitter.png);
+}
+.youtube {
+    list-style-image: url(./imagens/Youtube.png);
+}
+
+@font-face {
+    font-family: h2;
+    src: url(./fontes/Train_One/TrainOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: li;
+    src: url(./fontes/Train_One/TrainOne-Regular.ttf);
+}
+
+h2 {
+    font-family: h2, Arial, Helvetica, sans-serif;
+}
+li {
+    font-family: li, Arial, Helvetica, sans-serif;
+}
