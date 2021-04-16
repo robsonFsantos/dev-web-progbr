@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+    </style>
+
+</head>
+<!--  DISPLAY INLINE
+    A propriedade display inline 
+    - como o <span>, por exemplo - 
+    compartilha espaço na mesma linha com outros elementos. 
+    MAS não viabiliza alteração <NEM da largura NEM da altura> do elemento. 
+    
+    NESTE EXERCÍCIO:
+
+    O "elemento SPAN" está com uma configuração de cor (green), 
+    mas, 
+    DIFERENTE DO QUE ACONTECE COM A PROPRIEDADE DISPLAY BLOCK 
+    (na "div de dentro", por exemplo) 
+    a determinação referente à mudança de sua largura - para 500px - não funciona.
+
+    RENDERIZE A PÁGINA e observe   -->
+
+<body>
+    <br><br>
+    <div>
+
+        <div>Esta é uma div normal</div>
+        <div>E aqui a história<div style="background-color: red; width:500px; height: 50px;">Div de dentro </div>
+            continua
+        </div>
+
+        <div>
+            <p>Este é um parágrafo normal</p>
+            <p>E aqui a história continua</p>
+        </div>
+        <p>
+            Aqui eu tenho um início de um parágrafo, <span style="background-color:green; 500px"> um SPAN no meio</span>
+            e o fim do parágrafo.
+        </p>
+        <p>
+            Aqui eu tenho um início de um parágrafo,
+        <div>uma DIV no meio</div> e o fim do parágrafo.
+        </p>
+        <p>
+            Aqui eu tenho um início de um parágrafo, <img src="./images/sorvete-de-menta.jpg" width="120px"> e o fim do
+            parágrafo.
+        </p>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+    </style>
+
+</head>
+<!-- Por padrão, uma div - NÃO DETERMINA - uma distância na vertical (uma altura) relacionada ao próximo elemento, mas um parágrafo sim.
+
+É padrão, em HTML, que entre um parágrafo e outro 
+exista uma distância (uma altura).
+
+O elemento "parágrafo"
+possui, por padrão, um preenchimento (margin) pré configurado.
+
+NESTE EXERCÍCIO:
+Observe a anulação <da distância padrão> 
+entre os dois parágrafos (marcados em amarelo).
+
+O margin dos dois parágrafos está reduzido a zero  -->
+
+<body>
+    <br><br>
+    <div>
+
+        <div>Esta é uma div normal</div>
+        <div>E aqui a história<div>Div de dentro </div>
+            continua
+        </div>
+
+        <div>
+            <p style="margin: 0;"><mark>Este é um parágrafo normal</mark></p> 
+            <p style="margin: 0;"><mark>E aqui a história continua</mark></p> 
+        </div>
+        <p>
+            Aqui eu tenho um início de um parágrafo, <span> um SPAN no meio</span>
+            e o fim do parágrafo.
+        </p>
+        <p>
+            Aqui eu tenho um início de um parágrafo,
+        <div>uma DIV no meio</div> e o fim do parágrafo.
+        </p>
+        <p>
+            Aqui eu tenho um início de um parágrafo, <img src="./images/sorvete-de-menta.jpg" width="120px"> e o fim do
+            parágrafo.
+        </p>
+
+</body>
+
+</html>

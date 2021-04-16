@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+    </style>
+
+</head>
+<!-- Um elemento HTML, do tipo DISPLAY BLOCK,
+NÃO FUNCIONA DETRO DE UM ELEMENTO PARÁGRAFO.
+
+NESTE EXERCÍCIO:
+A div (marcada com a cor vermelha) 
+está dentro de um parágrafo (marcado com a cor azul).
+Quando renderizada a página, a div quebra o fluxo padrão do elemento parágrafo.
+
+Em HTML, uma div não pode estar dentro de um parágrafo, 
+e um parágrafo não pode estar dentro de outro parágrafo.        -->
+
+<body>
+    <br><br>
+    <div style="background-color: blue;">
+
+        <div>Esta é uma div normal</div>
+        <div>E aqui a história<div style="background-color: red;">Div de dentro </div>
+            continua
+        </div>
+
+    </div>
+            <p style="margin: 0;"><mark>Este é um parágrafo normal</mark></p> 
+            <p style="margin: 0;"><mark>E aqui a história continua</mark></p> 
+        </div>
+        <p>
+            Aqui eu tenho um início de um parágrafo, <span> um SPAN no meio</span>
+            e o fim do parágrafo.
+        </p>
+
+        <p style="background-color: blue;">
+            Aqui eu tenho um início de um parágrafo,
+        <div style="background-color: red;">uma DIV no meio</div> e o fim do parágrafo.
+        </p>
+        <p>
+            Aqui eu tenho um início de um parágrafo, <img src="./images/sorvete-de-menta.jpg" width="120px"> e o fim do
+            parágrafo.
+        </p>
+
+</body>
+
+</html>

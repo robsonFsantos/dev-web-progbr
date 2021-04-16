@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+    </style>
+
+</head>
+<!-- NESTE EXERCÍCIO
+    Observe a configuração da "div de dentro" (rederize a página). 
+    A "div de dentro" está com um "background-color: red;"
+
+    A div - por possuir um display block - ocupa toda a largura da página 
+    e não compartilha espaço, na mesma linha, com outros elementos. 
+
+    NA HTML, um parágrafo e uma div, por exemplo, possuem, por padrão, um display block.    -->
+
+<body>
+    <br><br>
+    <div>
+
+        <div>Esta é uma div normal</div>
+        <div>E aqui a história<div style="background-color: red;">Div de dentro </div> continua
+        </div>
+
+    <div>
+        <p>Este é um parágrafo normal</p>
+        <p>E aqui a história continua</p>
+    </div>
+    <p>
+        Aqui eu tenho um início de um parágrafo, <span> um SPAN no meio</span> e o fim do parágrafo.
+    </p>
+    <p>
+        Aqui eu tenho um início de um parágrafo,
+    <div>uma DIV no meio</div> e o fim do parágrafo.
+    </p>
+    <p>
+        Aqui eu tenho um início de um parágrafo, <img src="./images/sorvete-de-menta.jpg" width="120px"> e o fim do
+        parágrafo.
+    </p>
+
+</body>
+
+</html>
