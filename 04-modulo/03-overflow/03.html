@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        #container {
+            color: black;
+            background-color: blue;
+            width: 300px;
+            height: 100px;
+            padding: 10px;
+            margin-left: 500px;
+
+            overflow: scroll;
+
+        }
+    </style>
+</head>
+<!-- "overflow: scroll;"
+
+    O estouro é cortado, mas 
+    uma barra de rolagem é adicionada para expor o resto do conteúdo
+
+    OBS.: "overflow: scroll;" cria, automaticamente, duas barras de rolagem, 
+    uma na vertical, outra na horizontal, 
+    independentemente da necessidade real do conteúdo estourado. 
+    
+    Em determinadas situações, isso não é favorável.   -->
+
+<body>
+    <br><br><br><br>
+    <div id="container">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non pharetra nisl. Aenean at arcu at elit
+        viverra luctus. Suspendisse viverra porttitor nulla, non feugiat dui cursus non. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat. Nam pharetra augue risus,
+        finibus rutrum metus pharetra et. Quisque dictum mi ut arcu pretium, in faucibus diam eleifend. Ut nec orci id
+        ligula lobortis cursus vitae non libero. Mauris rutrum eleifend euismod. Phasellus gravida tellus eget lorem
+        aliquam, sed lacinia quam dictum. Nunc est felis, faucibus non lectus quis, ultrices malesuada risus.
+        Pellentesque dignissim ultrices eros, sit amet egestas ex bibendum ut.
+
+    </div>
+
+
+</body>
+
+</html>

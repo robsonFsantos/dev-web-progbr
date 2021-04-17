@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        #container {
+            color: black;
+            background-color: blue;
+            width: 300px;
+            height: 100px;
+            padding: 10px;
+            margin-left: 500px;
+
+            overflow: visible;
+        }
+
+        img {
+            width: 400px;
+        }
+    </style>
+</head>
+<!-- "overflow" com imagem
+
+    Com "overflow: visible;" a imagem estourou a caixa do container,
+    e o excesso está exposto.
+
+
+  -->
+
+<body>
+    <br><br><br><br>
+    <div id="container">
+        <img src="./images/sorvete-de-menta.jpg">
+
+    </div>
+
+
+</body>
+
+</html>
