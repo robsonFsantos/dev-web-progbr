@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position - Static e Relative</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado-red {
+            background-color: red;
+            
+        }
+
+        .quadrado-blue {
+            background-color: blue;
+            position: relative;
+            bottom: 20px;
+            right: 20px;
+            
+        }
+
+        .quadrado-green {
+            background-color: green;
+            
+        }
+        .quadro {
+            width: 500px;
+            height: 400px;
+            border: 1px solid grey;
+        }
+    </style>
+
+</head>
+<!--  Acrescentar 20px embaixo de um elemento 
+--- por exemplo: "bottom: 20px;" --- significa uma elevação de 20px para o elemento referenciado. 
+
+    E TAMBÉM EXISTE O CONTRÁRIO:
+    Acrescentar 20px acima de um elemento 
+    --- por exemplo: "top: 20px" --- significa um declive de 20px para o elemento referenciado. 
+
+    EXEMPLO:
+    .quadrado-blue {
+            background-color: blue;
+            position: relative;
+            bottom: 20px;
+            right: 20px;
+            
+        }
+        O QUADRADO AZUL ESTÁ 20px ACIMA DE SUA POSIÇÃO INICIAL,
+        está, também, 20px deslocado para a esquerda
+        e --- diferete de "margin" --- não interferiu 
+        na posição do quadrado vermelho.                             -->
+
+
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+
+    </div>
+
+</body>
+
+</html>

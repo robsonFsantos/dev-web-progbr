@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position - Static e Relative</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado-red {
+            background-color: red;
+            
+        }
+
+        .quadrado-blue {
+            background-color: blue;
+            position: relative;
+            left: 400px;
+            top: 300px;
+            
+        }
+
+        .quadrado-green {
+            background-color: green;
+            
+        }
+        .quadro {
+            width: 500px;
+            height: 400px;
+            border: 1px solid grey;
+        }
+    </style>
+
+</head>
+<!--   Calcular deslocamento --- vertical --- 
+    do quadrado azul (dentro do quadro),
+    de acordo com os valores de cado um dos elementos chave:
+
+    Um elemento com "position: relative;" está posicionado em relação à sua posição normal (não em relação à posição de seu elemento pai).
+    
+    Definir as propriedades superior, direita, inferior e esquerda de um elemento relativamente posicionado fará com que ele seja ajustado para longe de sua posição normal. Outro conteúdo não será ajustado para caber em qualquer lacuna deixada pelo elemento. 
+               -- -- -- -- -- --       - -- -- -- -- --    - -- -- -- -- --
+
+    O quadro (elemento pai)
+    E o quadrado (elemento filho)
+
+    A altura do quadro (elemento pai) é de 400px
+    A altura do quadrado (elemento filho) é de 100px
+
+    Cada quadrado, nesse contexto, ocupa 100px de altura e, na extensão da altura do quadro, há 300px de espaço vazio.
+
+    O quadrado azul estava, inicialmente, à esquerda (dentro do quadro),
+    agora está deslocado na vertical --- com imprecisão --- para fora do quadro.
+
+    EXEMPLO:
+        .quadrado-blue {
+            background-color: blue;
+            position: relative;
+            left: 400px;
+            top: 300px;                                      -->
+
+
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+
+    </div>
+
+</body>
+
+</html>

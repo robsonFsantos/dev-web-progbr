@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position - Static e Relative</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado-red {
+            background-color: red;
+            
+        }
+
+        .quadrado-blue {
+            background-color: blue;
+            position: relative;
+            left: 400px;
+            
+        }
+
+        .quadrado-green {
+            background-color: green;
+            
+        }
+        .quadro {
+            width: 500px;
+            height: 400px;
+            border: 1px solid grey;
+        }
+    </style>
+
+</head>
+<!--   Calcular deslocamento --- horizontal --- 
+    do quadrado azul (dentro do quadro),
+    de acordo com os valores de cado um dos elementos chave:
+
+    O quadro (elemento pai)
+    E o quadrado (elemento filho)
+
+    A largura do quadro (elemento pai) é de 500px
+    A largura do quadrado (elemento filho) é de 100px
+
+    Cada quadrado, nesse contexto, ocupa 100px de largura e, na extensão da largura do quadro, há 400px de espaço vazio.
+
+    O quadrado azul estava, inicialmente, à esquerda (dentro do quadro),
+    agora está deslocado --- com precisão --- para a extremidade direita do quadro.
+
+    EXEMPLO:
+        .quadrado-blue {
+            background-color: blue;
+            position: relative;
+            left: 400px;
+            
+        }                                                    
+                                                            -->
+
+
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+
+    </div>
+
+</body>
+
+</html>
