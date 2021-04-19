@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Absolute</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado-red {
+            background-color: red;
+            
+        }
+
+        .quadrado-blue {
+            background-color: blue;
+            position: absolute;
+            left: 300px;
+            
+            
+        }
+
+        .quadrado-green {
+            background-color: green;
+            
+        }
+        .quadro {
+            width: 800px;
+            height: 400px;
+            border: 1px solid grey;
+        }
+    </style>
+
+</head>
+<!--  A posição do quadrado azul 
+    está configurada como absoluta
+    (position: absolute;). 
+    E no arquivo anterior,
+    o quadrado VERDE havia desaparecido.
+
+    NESTE EXERCÍCIO:
+    O quadrado verde está de novo visível.
+
+    Com Posicionamento Absoluto (position: absolute;) 
+    a alteração de posição de um elemento não está mais relacionada à sua posição inicial. 
+    
+    Com "position: absolute;", o quadrado azul, no primeiro momento, foi deslocado para a sua posição inicial (abaixo do quadrado vermelho), 
+    
+    MAS -> ->  os seus futuros deslocamentos 
+    não estão necessariamente limitados a esse lugar. 
+    
+    Sua movimentação agora passa a ter relação com o elemento pai 
+    (desde que o pai não seja um elemento com posição padrão/estático/static).
+    
+                          -->
+
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+        
+
+    </div>
+
+</body>
+
+</html>

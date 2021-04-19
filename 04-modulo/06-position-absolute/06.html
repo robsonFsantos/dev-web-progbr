@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Absolute</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado-red {
+            background-color: red;
+            
+        }
+
+        .quadrado-blue {
+            background-color: blue;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            
+            
+        }
+
+        .quadrado-green {
+            background-color: green;
+            
+        }
+        .quadro {
+            position: relative;
+            width: 800px;
+            height: 400px;
+            border: 1px solid grey;
+        }
+    </style>
+
+</head>
+<!-- REFERENTE AO ARQUIVO ANTERIOR:  
+
+    Com "right: 0px;" e "bottom: 0px;", 
+    o quadrado azul passa a estar fixado a 0px do lado direito e também a 0px da parte inferior da div "quadro" - no canto direito, da parte de baixo do quadro.  -->
+
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+        
+
+    </div>
+
+</body>
+
+</html>

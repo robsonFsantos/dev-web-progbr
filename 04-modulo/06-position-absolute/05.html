@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Absolute</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado-red {
+            background-color: red;
+            
+        }
+
+        .quadrado-blue {
+            background-color: blue;
+            position: absolute;
+            left: 300px;
+            bottom: 0px;
+            
+            
+        }
+
+        .quadrado-green {
+            background-color: green;
+            
+        }
+        .quadro {
+            position: relative;
+            width: 800px;
+            height: 400px;
+            border: 1px solid grey;
+        }
+    </style>
+
+</head>
+<!-- REFERENTE AO ARQUIVO ANTERIOR:  
+
+    A div "quadro" está com a sua configuração padrão de "static"
+    (Esta informação esteja subentendida. 
+    Por ser o comportamento padrão, não é necessária a digitação da posição "static" no código).
+
+    O elemento pai do quadrado azul, neste caso, não é a div "quadro", mas o elemento "body".
+
+    O procedimento "bottom: 0px;" deslocou o "quadrado zul" para a região inferior de seu pai (avô), o "body"
+
+    SOLUÇÃO:
+    Basta alterar a posição da div "quadro", de "static" para qualquer outra, para que o sistema HTML o identifique como o elemento pai relacionado ao quadrado azul.
+    POR EXEMPLO:
+    "position: relative;"                         -->
+
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+        
+
+    </div>
+
+</body>
+
+</html>

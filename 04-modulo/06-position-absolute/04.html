@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Absolute</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado-red {
+            background-color: red;
+            
+        }
+
+        .quadrado-blue {
+            background-color: blue;
+            position: absolute;
+            left: 300px;
+            bottom: 0px;
+            
+            
+        }
+
+        .quadrado-green {
+            background-color: green;
+            
+        }
+        .quadro {
+            width: 800px;
+            height: 400px;
+            border: 1px solid grey;
+        }
+    </style>
+
+</head>
+<!--  "bottom: 0px;" no quadrado zul 
+    --- se se tratasse de "position relative" ---
+    o elemento teria que permanecer onde está, 
+    porque é um posicionamento de valor "0" e, 
+    em "posicionamento relativo", teria relação com a sua posição de origem.
+
+    MAS NÃO, NESTE CASO SE TRATA DE POSIÇÃO ABSOLUTA
+    A movimentação do elemento passa a ter relação com a posição do elemento pai 
+    (desde que o pai não seja um elemento com posição padrão/estático/static).
+
+    OBSERVAÇÃO:
+
+    "bottom: 0px;" seria o equivalente ao ato de posicionar o quadrado azul a 0px na parte inferior de seu elemento pai (a div "quadro").
+
+    PORÉM, QUALQUER ELEMENTO HTML --- se, antes, nenhum procedimento intervir --- POSSUI, POR PADRÃO, UMA POSIÇÃO ESTÁTICA.
+
+    Isso siginifica que a div "quadro" está com a sua configuração padrão de "static".
+    O elemento pai do quadrado azul, neste caso, não é a div "quadro", mas o elemento "body".
+
+    O procedimento "bottom: 0px;" deslocou o "quadrado zul" para a região inferior de seu pai (avô), o "body"
+    
+                          -->
+
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+        
+
+    </div>
+
+</body>
+
+</html>
