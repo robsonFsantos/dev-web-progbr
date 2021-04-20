@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Fixed</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado-red {
+            background-color: red;
+            
+        }
+
+        .quadrado-blue {
+            background-color: blue;
+            position: fixed; 
+            right: 0px;
+            bottom: 500px;
+            
+            
+            
+        }
+
+        .quadrado-green {
+            background-color: green;
+            
+        }
+        .quadro {
+            position: relative;
+            width: 500px;
+            height: 4000px;
+            border: 1px solid grey;
+        }
+    </style>
+
+</head>
+<!-- 07 Um elemento com "position: fixed;" 
+    é posicionado em relação à janela de visualização (viewport), 
+    
+    o que significa que ele sempre permanece no mesmo lugar, 
+    mesmo se a página for rolada. 
+    
+    As propriedades superior, direita, inferior e esquerda 
+    são usadas para posicionar o elemento. 
+
+    NESTE EXERCÍCIO:
+    A altura da div "quadro" está aumentada:
+    "height: 4000px;". O quadro se tornou vertical.
+    
+    O quadrado azul está fixado a 0px de distância do lado direito 
+    do quadro (right: 0px;)
+    e a 500px de distância da região inferior do quadro (bottom: 500px;).
+
+    Os quadrados vermelho e verde podem ser deslocados com a rolagem (scroll) da página. Mas o quadrado azul não. 
+    
+    Está posicionado --- com "position: fixed;" --- em referência à viewport 
+    (janela de visualização), não tem dependência referente ao quadro.   -->
+
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+        
+
+    </div>
+
+</body>
+
+</html>
