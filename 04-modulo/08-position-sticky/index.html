@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Sticky</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado-red {
+            background-color: red;
+            
+        }
+
+        .quadrado-blue {
+            position: sticky;
+            top: 0px;
+            background-color: blue;
+            
+            
+            
+            
+        }
+
+        .quadrado-green {
+            background-color: green;
+            
+        }
+        .quadro {
+            position: relative;
+            width: 500px;
+            height: 4000px;
+            border: 1px solid grey;
+        }
+    </style>
+
+</head>
+<!--  08 Position Sticky 
+     --- Elemento pegajoso/aderente  ---
+
+     O quadrado azul está configurado para "grudar" 
+     no topo da viewport (top: 0px;)
+
+     Os outros objetos seguem o fluxo natural do scroll da página, 
+     o quadrado azul segue o fluxo até chegar na posição determinada
+     e se fixar.
+
+
+
+                         
+
+                                    -->
+
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+        
+
+    </div>
+
+</body>
+
+</html>
