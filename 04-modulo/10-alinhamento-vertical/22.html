@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .card {
+            position: relative;
+            float: left;
+            width: 400px;
+            height: 200px;
+            border: 2px solid green;
+            text-align: center;
+
+        }
+
+        .card2 {
+            /* clear: left; */
+            border: 2px solid green;
+            float: left;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .conteudo1 {
+            line-height: 200px;
+        }
+
+        .conteudo2 {
+            position: absolute;
+            top: 50%;
+            color: black;
+            transform: translate(-50%, -50%);
+            left: 50%;
+
+
+        }
+    </style>
+
+</head>
+<!-- Alinhamento Vertical 
+
+    CRIAÇÃO DE TRÊS CARTÕES DE VISITA
+          --- Terceiro modo/PARTE 7 --- 
+
+          Anulação experimental de "clear: left;"
+          A div "card2" está com uma altura (height) maior que a de seus elementos vizinhos. 
+
+        
+          
+
+        
+
+                                      -->
+
+<body>
+    <div class="card">
+        <div class="conteudo1">
+            Robson F Santos
+        </div>
+
+    </div>
+
+    <div class="card">
+        <div class="conteudo2">
+            Robson F Santos
+
+        </div>
+
+    </div>
+
+    <div class="card2">
+        <div>
+            Robson F Santos
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

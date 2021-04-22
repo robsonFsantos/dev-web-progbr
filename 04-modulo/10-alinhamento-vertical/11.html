@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .card {
+            position: relative;
+            float: left;
+            width: 400px;
+            height: 200px;
+            border: 2px solid green;
+            text-align: center;
+
+        }
+
+        .conteudo1 {
+            background-color: red;
+            line-height: 200px;
+        }
+
+        .conteudo2 {
+            position: absolute;
+            top:50%;
+            background-color: blue;
+            color: white;
+            transform: translateY(-50%);
+            left: 50%;
+
+
+        }
+    </style>
+
+</head>
+<!-- Alinhamento Vertical 
+
+    CRIAÇÃO DE DOIS CARTÕES DE VISITA
+          --- Segundo modo/PARTE 5  --- 
+          
+          Com "left: 50%;" (% referente ao pai, a div "card"), 
+          apenas o início do texto 
+          da div "conteudo2" está centralizado. 
+
+        
+                                                              -->
+
+<body>
+    <div class="card">
+        <div class="conteudo1">
+            Robson F Santos
+        </div>
+
+    </div>
+
+    <div class="card">
+        <div class="conteudo2">
+            Robson F Santos
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
