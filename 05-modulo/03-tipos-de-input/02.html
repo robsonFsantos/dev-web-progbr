@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de input</title>
+</head>
+<!-- --- Tipos de input ---
+           "password" 
+    --- MÉTODO POST ---
+
+    NESTE EXERCÍCIO:
+O método POST está acionado.
+
+Quando usei o método de envio GET, funcionou. O procedimento não é seguro, porque a informação referente à senha fica exposta em um trecho de escrita do URL. Mas quando altero o método para POST, que é o procedimento recomendado para envio de senha, dá erro na página. Aparece "HTTP ERROR 405"
+
+PESQUISEI NO GOOGLE --- Lá no MDN Web Docs:
+Este status de resposta indica que o verbo HTTP utilizado não é suportado, por exemplo: a requisição ocorreu por meio de um POST, porém o único método disponível é o GET. 
+
+Neste caso, faltou comunicar ao Back End o envio de informação via método POST.
+
+
+                              -->
+
+<body>
+    <form method="POST" action="">
+
+        <input type="text" name="search_query">
+        <input type="password" name="senha">
+        <input type="submit">
+
+    </form>
+
+
+</body>
+
+</html>
