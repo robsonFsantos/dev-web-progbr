@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Semânticas</title>
+</head>
+<!-- Tags Semânticas 
+     --- HTML5 ---
+
+"elementos semânticos são elementos com um sentido especial. 
+
+No contexto HTML5:
+Elementos semânticos: tem significado, e deixam seu conteúdo claro. 
+(form, table, article, footer e section).
+
+Elementos não semânticos: não deixam seu conteúdo claro. 
+(div e span).
+
+Veja que div é amplo, mas footer dá significado, é o rodapé. 
+
+Portanto, ao invés de <div id="footer"> 
+prefira <footer>"
+                                   -->
+
+<body>
+
+    <header>
+        <!-- <header> representa um grupo de conteúdo introdutório. 
+    Se ele for um elemento filho do <body>, ele é um header global da página do site, mas se for um elemento filho de um <article> ou <section>, é definido como um header específico para essa seção (tenta não confundir isso com títulos e cabeçalhos). -->
+
+        <nav>
+            <!-- <nav> contém a funcionalidade principal de navegação da página. Links secundários, etc., não iria na navegação  -->
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- <main> 
+    significa o conteúdo principal do site,
+    com várias subseções de conteúdo representadas por <article>, <section>, e elementos <div>. --- A tag <main> pode aparecer uma única vez 
+    em cada página ---                               -->
+        <article> </article>
+        <!-- <article> inclui um bloco de conteúdo relacionado, o qual faz sentido por si só, sem o restante da página (por exemplo, uma postagem singular dum blog -->
+        <section> </section>
+        <!-- <section> é similar com <article>, mas ele é mais para agrupar uma única parte de página que constitui em um único pedaço de funcionalidade (por exemplo, um minimapa, ou um conjunto de manchetes e resumo). É considerado boa prática começar cada seção com um título; observe também que você pode dividir um <article>s em diferentes <section>s, ou <section>s em diferentes <article>s, dependendo do contexto. -->
+
+    </main>
+
+
+    <footer>
+        <!-- <footer> representa um grupo de conteúdo final da página. -->
+    </footer>
+
+</body>
+
+</html>
