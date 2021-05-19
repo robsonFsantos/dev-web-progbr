@@ -7,7 +7,7 @@ body {
     background-color: black;
 }
 .container {
-    max-width: 1400px;
+    max-width: 1000px;
     margin: auto;
 }
 header {
@@ -89,10 +89,6 @@ footer {
 
 
 @media screen and (max-width:1400px){
-    * {
-        margin: 0;
-        padding: 0;
-    }
     .container {
         max-width: 1400px;
         margin: auto;
@@ -111,6 +107,10 @@ footer {
     }
 }
 @media screen and (max-width:500px) {
+    .container {
+        max-width: 1000px;
+        margin: auto;
+    }
 
     .formContainer {
         margin: auto;
